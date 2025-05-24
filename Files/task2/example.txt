@@ -1,0 +1,3 @@
+thiS iS an exAmple tExt in fiLe //before execution of task.c
+
+this is an example text in file //after execution of task.c

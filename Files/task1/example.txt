@@ -1,0 +1,1 @@
+this is an example text in file  //result of execution of task.c

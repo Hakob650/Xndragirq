@@ -34,9 +34,7 @@ int main(){
         free(buf);
         return 1;
     }
-    for(int i=1;i<=100;++i){
-        fprintf(fp,"%d",i);
-    }
+    fwrite(buf,1,readsize,fp);
     printf("%d",count);
     fclose(fp);
     free(buf);

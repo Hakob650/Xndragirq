@@ -31,6 +31,7 @@ int main(){
         return 1;
     }
     fwrite(buf,1,filesize,fp2);
+    printf("%s\n",buf);
     fclose(fp2);
     free(buf);
     return 0;

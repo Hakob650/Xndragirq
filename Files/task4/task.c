@@ -3,8 +3,8 @@
 int main(){
     FILE *fp;
     char *buf;
-    long offset=192;
-    size_t readsize=13;
+    long offset=0;
+    size_t readsize=20;
     fp=fopen("example.txt","r");
     if(fp==NULL){
         perror("Failed to open file to read");
